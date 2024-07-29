@@ -17,11 +17,16 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         assert calculator.divide(12, 3) == 4;
     }
+    public void testModulo() {
+        Calculator calculator = new Calculator();
+        assert calculator.modulo(12, 5) == 2;
+    }
     public static void main(String[] args) {
         CalculatorTest test = new CalculatorTest();
         test.testAdd();
         test.testSubtract();
         test.testMultiply();
         test.testDivide();
+        test.testModulo();
     }
 }
