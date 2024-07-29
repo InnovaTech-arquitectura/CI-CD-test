@@ -16,4 +16,7 @@ public class Calculator {
     public int modulo(int a, int b) {
         return a % b;
     }
+    public Double power(int a, int b) {
+        return Math.pow(a, b);
+    }
 }

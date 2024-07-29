@@ -21,6 +21,10 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         assert calculator.modulo(12, 5) == 2;
     }
+    public void testPower() {
+        Calculator calculator = new Calculator();
+        assert calculator.power(2, 3) == 8;
+    }
     public static void main(String[] args) {
         CalculatorTest test = new CalculatorTest();
         test.testAdd();

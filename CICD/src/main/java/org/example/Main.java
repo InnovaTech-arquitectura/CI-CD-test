@@ -7,5 +7,7 @@ public class Main {
         System.out.println(calculator.subtract(23, 52));
         System.out.println(calculator.multiply(34, 2));
         System.out.println(calculator.divide(12, 3));
+        System.out.println(calculator.modulo(12, 5));
+        System.out.println(calculator.power(2, 3));
     }
 }
